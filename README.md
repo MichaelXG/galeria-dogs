@@ -1,38 +1,12 @@
-# 🐶 Galeria de Raças de Cachorros
+# React + Vite
 
-Uma aplicação interativa e responsiva desenvolvida com **React** que exibe imagens aleatórias de diferentes raças de cachorros. A interface é moderna, minimalista e oferece uma experiência agradável com **modo claro/escuro**, **carrossel de imagens** e **lista alfabética de raças**.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-![Preview da aplicação](./public/preview.png)
+Currently, two official plugins are available:
 
-## 🚀 Funcionalidades
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- ✅ **Listagem de Raças (A–Z)**  
-  Exibe todas as raças disponíveis organizadas por ordem alfabética, com botões interativos.
-  
-- ✅ **Busca por Imagens da Raça**  
-  Ao clicar em uma raça, imagens aleatórias são exibidas no carrossel.
+## Expanding the ESLint configuration
 
-- ✅ **Carrossel de Imagens**  
-  Navegação entre imagens com botões de "próximo" e "anterior".
-
-- ✅ **Modo Claro/Escuro**  
-  Alternância entre os temas visualmente agradáveis com um botão no topo.
-
-- ✅ **Layout Responsivo**  
-  Interface adaptável para desktops, tablets e celulares.
-
-## 📦 Tecnologias Utilizadas
-
-- React
-- Vite
-- react-slick (carrossel)
-- CSS3 com variáveis para tema
-- Dog CEO API ([https://dog.ceo/dog-api/](https://dog.ceo/dog-api/))
-
-## 🧑‍💻 Como executar
-
-1. **Clone o repositório:**
-
-```bash
-git clone https://github.com/seu-usuario/galeria-cachorros.git
-cd galeria-cachorros
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
