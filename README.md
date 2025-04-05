@@ -46,3 +46,50 @@ Este é um projeto React interativo que consome a [Dog CEO API](https://dog.ceo/
 ```bash
 git clone https://github.com/seu-usuario/galeria-dogs.git
 cd galeria-dogs
+```
+
+### 2. Instale as dependências com Yarn
+
+```bash
+yarn
+```
+
+### 3. Inicie o servidor de desenvolvimento
+
+```bash
+yarn dev
+```
+
+### 4. Acesse no navegador
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📂 Estrutura do Projeto
+
+```
+galeria-dogs/
+├── public/
+│   └── vite.svg
+├── src/
+│   ├── components/
+│   │   ├── Carousel.jsx
+│   │   └── AlphabetBreedList.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   ├── styles.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── README.md
+```
+
+---
+
+## 🧑‍💻 Autor
+
+Feito  por **Michael XG**  
+API fornecida por [Dog CEO](https://dog.ceo/dog-api/) 🐾
